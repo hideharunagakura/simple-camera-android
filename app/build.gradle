@@ -32,6 +32,10 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
 
+    // CameraX
+    implementation "androidx.camera:camera-core:$cameraVersion"
+    implementation "androidx.camera:camera-camera2:$cameraVersion"
+
     // Kotlin
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
 
