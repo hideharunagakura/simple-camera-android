@@ -28,6 +28,10 @@ dependencies {
     implementation "androidx.core:core-ktx:$ktxVersion"
     implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
 
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+
     // Kotlin
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
 
